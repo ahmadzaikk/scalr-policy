@@ -15,6 +15,11 @@ policy "limit_instance_types" {
     enforcement_level = "soft-mandatory"
 }
 
+policy "enforce_s3_buckets_encryption" {
+    enabled = true
+    enforcement_level = "soft-mandatory"
+}
+
 policy "limit_cost" {
     enabled = true
     enforcement_level = "soft-mandatory"
